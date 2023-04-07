@@ -1,0 +1,57 @@
+.reveal {
+    position: relative;
+    opacity: 0;
+}
+
+.reveal.active {
+    opacity: 1;
+}
+
+/* Rule of thumb
+    ease-in: when things are moving out.
+    ease-out: when things are moving in.
+*/
+.active.fade-bottom {
+    animation: fade-bottom 500ms ease-out;
+}
+
+.active.fade-left {
+    animation: fade-left 500s ease-out;
+}
+
+.active.fade-right {
+    animation: fade-right 500ms ease-out;
+}
+
+@keyframes fade-bottom {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-left {
+    0% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-right {
+    0% {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

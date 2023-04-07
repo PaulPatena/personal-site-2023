@@ -1,0 +1,31 @@
+.riceFields {
+    background-image: url("../../public/images/banawe.jpeg");
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.ferrisWheel {
+    background-image: url("../../public/images/ferrisWheel.jpeg");
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.mountain {
+    background-image: url("../../public/images/mountain.jpeg");
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.ferrari {
+    background-image: url("../../public/images/ferrari.jpeg");
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
