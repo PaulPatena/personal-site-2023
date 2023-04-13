@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import styles from "./HelloThere.module.css";
-import { ScrollEvent } from "@/models/commonTypes";
 
 interface IProps {
   isMobile: boolean;
@@ -11,8 +10,9 @@ export const HelloThere: React.FC<IProps> = (props) => {
   const [ bgColor, setBgColor ] = useState(255);
 
   useEffect(() => {
-    const handleScroll = (event: ScrollEvent) => {
+    const handleScroll = (event: Event) => {
       // Normalized 0-9
+      // @ts-ignore
       const scrollPercent = Math.round(event.target.scrollTop * 10 / props.height);
 
       if (scrollPercent >= 0 && scrollPercent <= 9) {

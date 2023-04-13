@@ -54,7 +54,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Paul's profile</title>
+        <title>Paul&apos;s profile</title>
         <meta name="description" content="On my landing page, I showcase my skills as a developer, emphasizing my experience in React frontend, Java backend, and AWS cloud technologies, as well as my ability to create responsive, dynamic web applications. I provide a clear overview of my expertise to potential clients or employers, highlighting my strengths and demonstrating my value as a developer." />
       </Head>
       <HelloThere height={height} isMobile={isMobile}/>
